@@ -6,7 +6,7 @@ var cors    = require('cors');
 // serving static files from the public directory
 app.use(express.static('public'));
 //app.use(express.static());
-app.use('/static', express.static('src'));
+app.use(express.static('src'));
 app.use(cors());
 
 //create user account route

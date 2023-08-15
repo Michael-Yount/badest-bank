@@ -32,6 +32,8 @@ import {
       <HashRouter>
         <NavBar/>
               <Routes>
+              <Route path="/" exact          element={<Home />} />
+
                 <Route path="/Home" exact          element={<Home />} />
                 <Route path="/CreateAccount" element={<CreateAccount />} />
                 <Route path="/Deposit"        element={<Deposit />} />
